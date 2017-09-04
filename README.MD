@@ -5,6 +5,8 @@
     3. ./ss-panel-v3-mod.sh 运行 ，根据提示操作
     4.注意 如遇到download zip 包从github下载失败问题，可以手动rz上传,并去除脚本中响应的wget位置即可
     5.相应资源从github，91vps获取，有mrchang整理
+    6.前台网站配置文件 默认在 /home/wwwroot/default/config/.config.php
+      后台节点服务默认配置在 shadowsocks/userapiconfig.py
  ##Google BBR 加速 
     1.下载 bbr.sh 到linux 目录
     2.给到 bbr.sh 权限
