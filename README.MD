@@ -1,5 +1,5 @@
-#原福利社或fireSs加速器全套源码
- ##安装步骤（前台+后台）
+# 原福利社或fireSs加速器全套源码
+ ## 安装步骤（前台+后台）
     1.下载ss-panel-v3-mod.sh 到linux目录
     2.给到ss-panel-v3-mod.sh 权限 chmod 777 ss-panel-v3-mod.sh 即可
     3. ./ss-panel-v3-mod.sh 运行 ，根据提示操作
@@ -7,7 +7,7 @@
     5.相应资源从github，91vps获取，有mrchang整理
     6.前台网站配置文件 默认在 /home/wwwroot/default/config/.config.php
       后台节点服务默认配置在 shadowsocks/userapiconfig.py
- ##Google BBR 加速 
+ ## Google BBR 加速 
     1.下载 bbr.sh 到linux 目录
     2.给到 bbr.sh 权限
     3. ./bbr.sh 即可
