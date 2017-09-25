@@ -15,6 +15,13 @@
     6.内存要求：≥128M
     7.安装完成后 uname -r 查看系统内核
     8.含有 4.12 就表示 OK 了 sysctl net.ipv4.tcp_available_congestion_control 
+    
+ ## status.sh 为监控脚本
+    1. 运行，选择服务端还是客户端，
+    2. 配置文件默认在 `/usr/local/ServerStatus/server/config.json`
+ ## ssr.sh 一键单端口多用户shadowsocksR 脚本
+    1. 上传到服务器，给777权限
+    2. 根据提示操作即可
  ### 鸣谢：
     基于91vps脚本更改，前后台取自github相应开源项目，
     使用一键脚本使部署更简单。
