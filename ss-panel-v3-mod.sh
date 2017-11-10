@@ -54,7 +54,7 @@ install_ss_panel_mod_v3(){
 	echo "#############################################################"
 	echo "# 安装成功，登录http://${IPAddress}看看吧~                  #"
 	echo "# Github: https://github.com/mmmwhy/ss-panel-and-ss-py-mu   #"
-	echo "# Author: mrchang  默认用户名 ss@feiyang.li  密码 91vps                                      #"
+	echo "# Author: mrchang  默认用户名 ss@feiyang.li  密码 feiyang     #"
 	echo "#############################################################"
 }
 install_centos_ssr(){
