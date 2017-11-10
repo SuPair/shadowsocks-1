@@ -5,6 +5,8 @@ install_ss_panel_mod_v3(){
 	yum -y remove httpd
 	yum install -y unzip zip
 	unzip lnmp1.3.zip && cd lnmp1.3 && chmod +x install.sh && ./install.sh lnmp
+	cd ..
+	mv ss.panel_mod.zip /home/wwwroot/default/
 	cd /home/wwwroot/default/
 	yum install git -y
 	rm -rf index.html
@@ -52,7 +54,7 @@ install_ss_panel_mod_v3(){
 	echo "#############################################################"
 	echo "# 安装成功，登录http://${IPAddress}看看吧~                  #"
 	echo "# Github: https://github.com/mmmwhy/ss-panel-and-ss-py-mu   #"
-	echo "# Author: mrchang                                        #"
+	echo "# Author: mrchang  默认用户名 ss@feiyang.li  密码 91vps                                      #"
 	echo "#############################################################"
 }
 install_centos_ssr(){
